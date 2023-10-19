@@ -1,0 +1,16 @@
+[
+    {
+        "id": 13,
+        "login": "uszka@kot.eu",
+        "password": "very-secret",
+        "admin": true,
+        "owner": true
+    },
+    {
+        "id": 42,
+        "login": "kumpel@z.polski",
+        "password": "123Pa$$word",
+        "admin": false,
+        "owner": false
+    }
+]
