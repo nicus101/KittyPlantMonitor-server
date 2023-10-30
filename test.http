@@ -1,0 +1,11 @@
+### Example ingest
+POST http://localhost:6969/api/v1/sensor/ingest
+Authorization: 54E2053402
+Content-Type: application/json
+
+{
+    "api": "v0",
+    "measures": [
+        {"type": "chip_temp", "value": 66.6}
+    ]
+}
