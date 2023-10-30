@@ -1,0 +1,15 @@
+### 2023-10-30T20:32:26Z
+POST /api/v1/sensor/ingest
+User-Agent: vscode-restclient
+Authorization: 54E2053402
+Content-Type: application/json
+Accept-Encoding: gzip, deflate
+Content-Length: 89
+Connection: close
+
+{
+    "api": "v0",
+    "measures": [
+        {"type": "chip_temp", "value": 66.6}
+    ]
+}
