@@ -22,3 +22,8 @@ go.work
 
 *.sqlite3
 .env
+
+# VS Code
+.vscode/settings
+/log
+
