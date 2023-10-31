@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS "schema_migrations" (version varchar(128) primary key);
 CREATE TABLE sensors (
   id INTEGER NOT NULL PRIMARY KEY,
-  serial INTEGER NOT NULL UNIQUE,
+  serial_code VARCHAR(32) NOT NULL UNIQUE,
   label VARCHAR(1024)
 );
 CREATE TABLE measures (
@@ -14,4 +14,5 @@ CREATE TABLE measures (
 -- Dbmate schema migrations
 INSERT INTO "schema_migrations" (version) VALUES
   ('20231024162705'),
-  ('20231024170548');
+  ('20231024170548'),
+  ('20231024172448');
